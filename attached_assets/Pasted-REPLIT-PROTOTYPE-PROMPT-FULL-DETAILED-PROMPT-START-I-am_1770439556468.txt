@@ -1,0 +1,360 @@
+REPLIT PROTOTYPE PROMPT (FULL & DETAILED)
+
+PROMPT START
+
+I am building a working product prototype for a Product Management internship assignment.
+This is not a demo app. It should feel like a real, early-stage ed-tech product with thoughtful UX, realistic data, and strong engagement mechanics.
+
+Build a responsive web application prototype for an IELTS preparation engagement platform focused on destroying self-doubt through consistency, momentum, and visible progress.
+
+Use:
+
+React (preferred)
+
+Tailwind CSS (or similar modern utility-first styling)
+
+Component-based architecture
+
+Clean folder structure
+
+Realistic dummy data
+
+No backend required (simulate logic in frontend)
+
+The UI must not look AI-generated. It should feel like a real SaaS dashboard built by a startup team.
+
+🔹 CORE PRODUCT PHILOSOPHY
+
+The central problem this product solves is self-doubt during long preparation cycles.
+
+The solution destroys self-doubt by:
+
+Making consistency visible
+
+Showing progress daily
+
+Creating peer comparison (healthy pressure)
+
+Rewarding effort, not just outcomes
+
+Everything in the UI should reinforce:
+
+“You ARE progressing.”
+
+🔹 DESIGN SYSTEM / UI REQUIREMENTS
+Color Palette (Professional, Calm, Serious)
+
+Primary: Deep Navy Blue (#1E293B)
+
+Secondary: Muted Teal (#0F766E)
+
+Accent: Soft Amber (#F59E0B) for achievements
+
+Background: Light neutral gray (#F8FAFC)
+
+Cards: White with subtle shadows
+
+Text: Slate gray / near-black
+
+UI Rules
+
+Clean spacing
+
+Rounded cards
+
+Subtle hover effects
+
+No bright neon colors
+
+No cartoon visuals
+
+Professional typography
+
+Dashboard-style layout
+
+🔹 MAIN DASHBOARD STRUCTURE
+1️⃣ HEADER
+
+Display:
+
+User name
+
+Target IELTS band
+
+Current streak (🔥 icon)
+
+Notification bell
+
+Profile avatar
+
+2️⃣ CONSISTENCY CHART (SELF-DOUBT DESTROYER)
+
+Create a Consistency & Momentum Chart prominently near the top.
+
+Show:
+
+Daily activity over time
+
+Momentum score trend
+
+Clear visual proof of consistency
+
+This section should communicate:
+“You are showing up regularly.”
+
+3️⃣ ACTIVITY HEAT MAP (IMPORTANT)
+
+Create a calendar heat map similar to coding platforms.
+
+Each day colored by activity level
+
+Darker = higher engagement
+
+Light = minimal activity
+
+Empty = no activity
+
+This heat map is a core engagement feature and must be visually clear.
+
+4️⃣ DAILY STREAK CHALLENGE SYSTEM
+
+Daily challenges must:
+
+Rotate skills randomly:
+
+Reading
+
+Writing
+
+Listening
+
+Speaking
+
+Never repeat the same skill two days in a row
+
+Be short (10–20 minutes)
+
+Show on the card:
+
+Skill of the day
+
+Difficulty
+
+Estimated time
+
+Start Challenge button
+
+5️⃣ AI-TAILORED STREAK QUESTIONS (KEY FEATURE)
+
+Streak questions must be adaptive.
+
+Logic (mocked in frontend):
+
+Identify weaker sections
+
+Prioritize them in future streaks
+
+Stronger areas appear less frequently
+
+Display a small note:
+“Today’s challenge is focused on improving your weaker area.”
+
+6️⃣ MOMENTUM SCORE PANEL
+
+Momentum Score =
+Consistency + Accuracy + Weekly Time
+
+Display:
+
+Momentum score (0–100)
+
+Breakdown bars
+
+Trend (up/down)
+
+This score should be visible daily.
+
+7️⃣ WEEKLY IELTS ARENA (MOCK TEST)
+
+Create a Weekly Arena Section.
+
+Show:
+
+Countdown to next arena
+
+Participate button
+
+Last arena score
+
+Arena simulates:
+
+Timed full IELTS-style test
+
+One combined score
+
+8️⃣ LEADERBOARD & PEER PRESSURE
+
+Leaderboard must show:
+
+Rank
+
+Name
+
+Score
+
+Momentum score
+
+Top 3 highlighted visually.
+
+Purpose:
+
+Healthy peer pressure
+
+Competitive motivation
+
+9️⃣ WEEKLY GOODIES & REWARDS
+
+Rewards are based on:
+
+Arena score
+
+Momentum score
+
+Consistency
+
+Show reward cards:
+
+Certificates
+
+Goodies (vouchers / merchandise – UI only)
+
+Public recognition
+
+🔟 STREAK BADGES & ACHIEVEMENTS
+
+Badges:
+
+30-day streak
+
+50-day streak
+
+100-day streak
+
+Show:
+
+Earned badges
+
+Locked badges
+
+Progress to next badge
+
+Design badges clean and professional.
+
+1️⃣1️⃣ MONTHLY TODO & ACHIEVEMENT PLAN
+
+Create a Monthly Plan Section similar to structured learning sheets.
+
+Show:
+
+Monthly goals
+
+Tasks checklist
+
+Completion percentage
+
+Each completed task increases momentum.
+
+1️⃣2️⃣ IELTS TEST SCREENSHOT UPLOAD + AI MENTOR
+
+Create a section:
+
+Upload Your IELTS Test Result
+
+UI:
+
+File upload
+
+Image preview
+
+Analyze button
+
+After analysis:
+
+Identify weaker sections
+
+Highlight strong sections
+
+Suggest focus areas
+
+1️⃣3️⃣ AI MENTOR PANEL
+
+This is NOT a chat bot.
+
+Display:
+
+Strengths
+
+Weaknesses
+
+Suggested daily focus
+
+Study plan adjustments
+
+Tone:
+Professional, supportive, confidence-building.
+
+1️⃣4️⃣ CERTIFICATES & LINKEDIN SHARING
+
+Show:
+
+Monthly activity certificate
+
+Weekly arena certificate
+
+Include:
+
+Download button
+
+Share on LinkedIn (dummy)
+
+🔹 UX REQUIREMENTS
+
+Smooth transitions
+
+Modals for challenges
+
+Loading states
+
+Clear visual hierarchy
+
+Logical navigation
+
+🔹 DATA REQUIREMENTS
+
+Use realistic dummy data:
+
+User profile
+
+Daily challenges
+
+Momentum scores
+
+Leaderboard entries
+
+Arena scores
+
+AI mentor feedback
+
+Do NOT use lorem ipsum.
+
+🔹 CODE QUALITY
+
+Clean, readable code
+
+Reusable components
+
+Logical folder structure
+
+Clear naming
+
+�...
