@@ -2,7 +2,10 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
-import 'dotenv/config';
+if (process.env.NODE_ENV !== 'production') {
+  await import('dotenv/config');
+}
+
 
 
 const app = express();
