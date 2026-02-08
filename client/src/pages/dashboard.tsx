@@ -4,6 +4,10 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
+import { cn } from "@/lib/utils";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { 
   Trophy, 
@@ -15,7 +19,8 @@ import {
   Circle,
   BrainCircuit,
   Medal,
-  Star
+  Star,
+  Swords
 } from "lucide-react";
 import { motion } from "framer-motion";
 
